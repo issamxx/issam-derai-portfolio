@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Issam Derai — Web & Mobile Developer | Networks & Cybersecurity</title>
+  <meta name="description" content="Portfolio of Issam Derai — Web & Mobile Developer, Network & Cybersecurity Technician, Video Editor & Graphic Designer based in Marrakech, Morocco." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-inner">
+      <a href="#top" class="brand">
+        <span class="brand-mark">ID</span>
+        <span class="brand-name">Issam Derai</span>
+      </a>
+      <nav class="nav-links" aria-label="Primary Navigation">
+        <a href="#about" data-i18n="nav.about">À propos</a>
+        <a href="#skills" data-i18n="nav.skills">Compétences</a>
+        <a href="#experience" data-i18n="nav.experience">Expériences</a>
+        <a href="#projects" data-i18n="nav.projects">Projets</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+      </nav>
+      <div class="nav-controls">
+        <div class="lang-switch" role="group" aria-label="Language Selector">
+          <button class="lang-btn active" data-lang="fr">FR</button>
+          <button class="lang-btn" data-lang="en">EN</button>
+          <button class="lang-btn" data-lang="ar">AR</button>
+        </div>
+        <button id="themeToggle" class="icon-btn" aria-label="Toggle color theme" title="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="badge" data-i18n="hero.badge">Disponible pour opportunités & missions Freelance</span>
+          <h1>Issam Derai</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">
+            Développeur Web &amp; Mobile | Technicien Réseaux, Systèmes &amp; Cybersécurité | Montage Vidéo &amp; Design Graphique
+          </p>
+          <p class="hero-desc" data-i18n="hero.desc">
+            Diplômé d'une Licence Professionnelle en Ingénierie des Réseaux Web et Sécurité (Université Cadi Ayyad, Marrakech). Je conçois des solutions web modernes, sécurise les infrastructures réseaux et réalise des contenus visuels percutants.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" data-i18n="hero.ctaProjects">Voir mes projets</a>
+            <a href="https://www.linkedin.com/in/issam-derai" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+            <a href="https://github.com/issamxx" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="pillar">
+            <span class="pillar-icon">💻</span>
+            <div>
+              <h3 data-i18n="pillar.webTitle">Développement Web &amp; Mobile</h3>
+              <p data-i18n="pillar.webDesc">Sites sur mesure, e-commerce, migration Laravel, bases de données &amp; SEO.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">🛡️</span>
+            <div>
+              <h3 data-i18n="pillar.secTitle">Réseaux, Systèmes &amp; Cybersécurité</h3>
+              <p data-i18n="pillar.secDesc">Docker, VMware, pfSense, CrowdSec, Ngrok, audits de sécurité &amp; maintenance PC.</p>
+            </div>
+          </div>
+          <div class="pillar">
+            <span class="pillar-icon">🎬</span>
+            <div>
+              <h3 data-i18n="pillar.mediaTitle">Montage Vidéo &amp; Design Graphique</h3>
+              <p data-i18n="pillar.mediaDesc">Photoshop, After Effects, retouche photo, affiches &amp; production vidéo.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="about.title">À propos</h2>
+        <div class="about-grid">
+          <p data-i18n="about.p1">
+            Je maîtrise le cycle de vie complet d'un projet IT : de la conception et du développement d'applications web et e-commerce à la sécurisation, la virtualisation et la maintenance matérielle des postes et réseaux.
+          </p>
+          <div class="stats-grid">
+            <div class="stat-box">
+              <strong>3+</strong>
+              <span data-i18n="about.stat1">Années en Freelance IT</span>
+            </div>
+            <div class="stat-box">
+              <strong>3</strong>
+              <span data-i18n="about.stat2">Langues (AR / FR / EN)</span>
+            </div>
+            <div class="stat-box">
+              <strong>360°</strong>
+              <span data-i18n="about.stat3">Web, Sécurité &amp; Design</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" data-i18n="skills.title">Compétences</h2>
+          <div class="filter-bar" role="group" aria-label="Skill Categories">
+            <button class="filter-btn active" data-filter="all" data-i18n="skills.all">Toutes</button>
+            <button class="filter-btn" data-filter="dev" data-i18n="skills.dev">Développement</button>
+            <button class="filter-btn" data-filter="sec" data-i18n="skills.sec">Réseaux &amp; Sécurité</button>
+            <button class="filter-btn" data-filter="media" data-i18n="skills.media">Design &amp; Vidéo</button>
+          </div>
+        </div>
+        <div class="skills-grid" id="skillsGrid">
+          <span class="skill-chip" data-cat="dev">HTML5 &amp; CSS3</span>
+          <span class="skill-chip" data-cat="dev">JavaScript</span>
+          <span class="skill-chip" data-cat="dev">PHP</span>
+          <span class="skill-chip" data-cat="dev">Laravel</span>
+          <span class="skill-chip" data-cat="dev">Python</span>
+          <span class="skill-chip" data-cat="dev">Java</span>
+          <span class="skill-chip" data-cat="dev">WordPress &amp; WooCommerce</span>
+          <span class="skill-chip" data-cat="dev">Bases de données</span>
+          <span class="skill-chip" data-cat="dev">SEO &amp; E-commerce</span>
+          <span class="skill-chip" data-cat="sec">Docker</span>
+          <span class="skill-chip" data-cat="sec">VMware</span>
+          <span class="skill-chip" data-cat="sec">pfSense</span>
+          <span class="skill-chip" data-cat="sec">CrowdSec</span>
+          <span class="skill-chip" data-cat="sec">Ngrok</span>
+          <span class="skill-chip" data-cat="sec">Audit de sécurité</span>
+          <span class="skill-chip" data-cat="sec">Administration Réseaux &amp; Systèmes</span>
+          <span class="skill-chip" data-cat="sec">Maintenance &amp; Montage PC</span>
+          <span class="skill-chip" data-cat="media">Adobe Photoshop</span>
+          <span class="skill-chip" data-cat="media">After Effects &amp; Animation 3D</span>
+          <span class="skill-chip" data-cat="media">Photographie &amp; Montage Vidéo</span>
+          <span class="skill-chip" data-cat="media">Microsoft Office</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section">
+      <div class="container">
+        <h2 class="section-title" data-i18n="exp.title">Expériences &amp; Formation</h2>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span class="timeline-date" data-i18n="exp.d1">2023 – Aujourd'hui</span>
+            <h3 data-i18n="exp.t1">Développeur Web &amp; Consultant Sécurité — Freelance</h3>
+            <p data-i18n="exp.p1">Création de sites sur mesure et e-commerce, vente de produits numériques, audits de sécurité, migration vers Laravel, maintenance PC, photographie, design (Photoshop) et vidéo (After Effects).</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date" data-i18n="exp.d2">Mai 2026 – Août 2026</span>
+            <h3 data-i18n="exp.t2">Stagiaire Développement Web &amp; Cybersécurité — Jaouhara</h3>
+            <p data-i18n="exp.p2">Développement web, conteneurisation d'applications avec Docker, routage sécurisé via Ngrok et protection cybersécurité avec CrowdSec.</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date" data-i18n="exp.d3">Mai 2025 – Août 2025</span>
+            <h3 data-i18n="exp.t3">Stagiaire Développement Web &amp; Conception Graphique — Urbagroupe</h3>
+            <p data-i18n="exp.p3">Création, déploiement et administration de site web ; retouche photo, création d'affiches (Photoshop) et production vidéo (After Effects).</p>
+          </article>
+          <article class="timeline-item">
+            <span class="timeline-date">2026</span>
+            <h3 data-i18n="exp.t4">Licence Professionnelle — Ingénierie des Réseaux Web et Sécurité</h3>
+            <p data-i18n="exp.p4">Université Cadi Ayyad, Marrakech.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title" data-i18n="proj.title">Projets GitHub</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-tags"><span>Docker</span><span>CrowdSec</span><span>Nginx</span><span>Ngrok</span></div>
+            <h3>docker-crowdsec-secure-stack</h3>
+            <p data-i18n="proj.p1">Stack Docker Compose sécurisée combinant reverse proxy Nginx durci, détection d'intrusion CrowdSec et tunnel sécurisé Ngrok.</p>
+            <a href="https://github.com/issamxx/docker-crowdsec-secure-stack" target="_blank" rel="noopener" class="project-link" data-i18n="proj.view">Voir sur GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-tags"><span>Python</span><span>Cybersecurity</span><span>CLI</span></div>
+            <h3>web-security-audit-toolkit</h3>
+            <p data-i18n="proj.p2">Outil CLI Python sans dépendances pour auditer les en-têtes HTTP de sécurité, les certificats SSL/TLS et générer des rapports Markdown/JSON.</p>
+            <a href="https://github.com/issamxx/web-security-audit-toolkit" target="_blank" rel="noopener" class="project-link" data-i18n="proj.view">Voir sur GitHub →</a>
+          </article>
+          <article class="project-card">
+            <div class="project-tags"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>i18n</span></div>
+            <h3>issam-derai-portfolio</h3>
+            <p data-i18n="proj.p3">Portfolio personnel responsive et multilingue (FR / EN / AR) avec mode clair/sombre et filtrage dynamique des compétences.</p>
+            <a href="https://github.com/issamxx/issam-derai-portfolio" target="_blank" rel="noopener" class="project-link" data-i18n="proj.view">Voir sur GitHub →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container contact-box">
+        <h2 data-i18n="contact.title">Travaillons ensemble</h2>
+        <p data-i18n="contact.desc">Disponible à Marrakech et en remote pour des opportunités CDI, stages avancés ou missions Freelance.</p>
+        <div class="hero-actions" style="justify-content:center;">
+          <a href="mailto:deraiyissame@gmail.com" class="btn btn-primary">deraiyissame@gmail.com</a>
+          <a href="https://www.linkedin.com/in/issam-derai" target="_blank" rel="noopener" class="btn btn-outline">LinkedIn</a>
+          <a href="https://github.com/issamxx" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Issam Derai — Marrakech, Morocco.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
